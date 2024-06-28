@@ -50,13 +50,6 @@ const en = {
   change: 'Change',
   'Wrong Network': 'Wrong Network',
   avbl: 'Avbl:',
-  chain_1: 'Mainnet',
-  chain_3: 'Ropsten',
-  chain_4: 'Rinkeby',
-  chain_5: 'Goerli',
-  chain_42: 'Kovan',
-  chain_42161: 'Arbitrum',
-  chain_10: 'Optimism',
   insufficient_balance_AAA:
     'There is not enough AAA in your wallet. Please check and try again.',
   insufficient_balance: 'Insufficient balance',
@@ -399,6 +392,7 @@ const en = {
   icon_switch: 'Switch',
   eth_code_tips: 'Native token of Ethereum. No token contract address.',
   TBD: 'TBD',
+  TVL: 'TVL',
   go_to_discord: 'Or Join Discord to Create Ticket',
   release: 'Release: ',
   security: 'Security',
@@ -722,7 +716,7 @@ const en = {
   'orders.export_trades_1_year': 'Export trade data of recent 1 year.',
   'orders.export_data': 'Export Data',
   'orders.export': 'Export',
-  'orders.export_processing': 'Processing, Please wait.',
+  'orders.export_processing': 'Processing.   Please wait.',
   'orders.export_tips_100_percent':
     'File will be downloaded once progress reaches 100%',
   'orders.sign_to_view_balance': 'Sign to view balance',
@@ -848,7 +842,7 @@ const en = {
   'gridOrders.m_on_hold_funds': 'On Hold Funds',
   'gridOrders.m_on_hold_funds_tips': 'Result of partially filled orders.',
   'gridOrders.initial_value': 'Initial Value',
-  'mining.my_title': 'My Pools',
+  'mining.my_title': 'My Mining Pool',
   'mining.index_desc':
     'Create Grid Strategy. Boost your grid profits with liquidity mining rewards.',
   'mining.apply': 'New Pool Application',
@@ -1296,6 +1290,7 @@ const en = {
     'Minimum order value is <b>$AMOUNT $QUOTE</b>(~$$100)',
   no_restriction_with_market_order: 'No restriction with <b>market order</b>',
   go_to_market_order: 'Go to Market Order',
+
   Mining_Eligibility: 'Mining Eligibility',
   How_to_earn_mining_rewards: 'How to earn mining rewards',
   Order_Value: 'ORDER VALUE',
@@ -1318,6 +1313,7 @@ const en = {
     'Grid orders that fulfill the criterion of mining order value at strategy creation will receive mining rewards if they fall within the mining price range (highest buy price ~ lowest sell price).',
   rewards_tips:
     'Grid orders that fulfill the criterion of mining order value at strategy creation will receive mining rewards if they fall within the mining price range (highest buy price * 0.99 ~ lowest sell price * 1.01).',
+
   wrap: 'wrap',
   Wrap: 'Wrap',
   websites_for_more_information: 'Websites for more information:',
@@ -1326,6 +1322,46 @@ const en = {
   tips_third_party_site:
     'You are about to leave DeGate and enter a third-party site:',
   wrap_unwrap: 'Wrap/Unwrap',
+
+  Receive: 'Receive',
+  Network: 'Network',
+  Arrival_Time: 'Arrival Time',
+  Token_Contract: 'Token Contract',
+  please_select_network: 'Please select network',
+  maximum_amount: 'Maximum Amount',
+  send_USDC_to_this_address: 'Send USDC to this address',
+  arpa_airdrop: '$ARPA Airdrop',
+  Failed_to_proceed: 'Failed to proceed.',
+  Please_select_the_Ethereum_network: 'Please select the Ethereum network.',
+  NATIVE_USDC_ONLY: 'Native USDC token ONLY',
+  NEVER_send_bridged_USDC: 'NEVER send bridged USDC',
+  I_understand: 'I understand',
+  recipient_address: 'Recipient Address',
+
+  chain_0: 'DeGate',
+  chain_1: 'Ethereum',
+  chain_17000: 'Ethereum',
+  chain_42: 'Kovan',
+  chain_42161: 'Arbitrum',
+  chain_421614: 'Arbitrum',
+  chain_10: 'Optimism',
+  chain_11155420: 'Optimism',
+  chain_137: 'Polygon',
+  chain_80002: 'Polygon',
+  scan_1: 'Etherscan',
+  scan_17000: 'Etherscan',
+  scan_42161: 'Arbiscan',
+  scan_421614: 'Arbiscan',
+  scan_10: 'Opscan',
+  scan_11155420: 'Opscan',
+  scan_tips:
+    'The rollup transaction containing this action has not yet been posted on Ethereum. Until it is, DGSCAN will <b>NOT</b> display this action.',
+  Best_Liquidity: 'Best Liquidity',
+  order_partially_filled: 'Order Partially Filled',
+  order_partially_filled_for_liquidity:
+    'You remaining order was canceled due to a sudden drop in order book liquidity. This protective measure prevents fills at unfavorable prices.',
+  'orders.export_data_2_year': 'Export data from past 2 years',
+  Community: 'Community',
 };
 
 export default en;
