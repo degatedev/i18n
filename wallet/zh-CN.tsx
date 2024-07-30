@@ -253,7 +253,7 @@ const zh = {
   'transfer.transfer_1_eth_ACCOUNT': '转账1 ETH到',
   'transfer.internal_transfer_address_new_tips':
     '该地址无DeGate使用记录，转账需支付更多矿工费',
-  'transfer.address_placeholder': '请输入地址',
+  address_placeholder: '请输入地址',
   'transfer.to_new_account_tips':
     '该地址无DeGate使用记录，收到的首笔资产将触发额外的链上数据使用，因此这笔转账需支付更多矿工费。',
   'transfer.confirm_internal_transfer': '确认内部转账',
@@ -264,7 +264,6 @@ const zh = {
   'transfer.recipient_cex_warning':
     '警告：请勿转账到中心化交易所，您会损失资产。',
   'withdraw.withdraw_max_tips': '已超出系统限制',
-  'withdraw.address_placeholder': '请输入以太坊地址',
   'dca.confirm_dca_plan': '确认定投计划',
   'dca.number_of_orders': '订单数',
   'dca.amount_per_order': '每笔订单金额',
@@ -355,13 +354,15 @@ const zh = {
   'account.pay_deposit_warning': '划入资金可能需要支付额外的矿工费',
 
   send_method: '发送方式',
-  arrival_time: '到账时间',
   Economy: '经济',
   Fast: '快速',
   Instant: '立即',
   less_than_X_hours: '< X 小时',
-  less_than_1_hours: '< 1 小时',
+  less_than_1_hour: '< 1 小时',
   Economy_tips:
     'DeGate每4小时至少处理一次发送请求，通常会更快。例如，如果另一个用户发起了快速发送，您的经济发送请求也会立即处理。',
+  wrap: '跨链',
+  just_a_moment: '请稍等',
+  wait_confirmation_from_wallet: '等待钱包返回确认',
 };
 export default zh;

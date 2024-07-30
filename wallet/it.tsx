@@ -281,7 +281,7 @@ const it = {
   'transfer.transfer_1_eth_ACCOUNT': 'Trasferisci 1 ETH a ',
   'transfer.internal_transfer_address_new_tips':
     'Questo indirizzo non ha una cronologia DeGate precedente. Il trasferimento a questo indirizzo richiederà commissioni di gas aggiuntive.',
-  'transfer.address_placeholder': 'Inserisci indirizzo',
+  address_placeholder: 'Inserisci indirizzo',
   'transfer.to_new_account_tips':
     'Questo indirizzo non ha una cronologia DeGate precedente. Poiché il primo ricevimento di asset comporta un utilizzo aggiuntivo dei dati on chain, effettuare questo trasferimento interno comporterà commissioni extra di gas.',
   'transfer.confirm_internal_transfer': 'Conferma trasferimento interno',
@@ -294,7 +294,6 @@ const it = {
   'transfer.recipient_cex_warning':
     'Avviso: si prega di non trasferire su Centralized Exchange. Perderai i fondi.',
   'withdraw.withdraw_max_tips': 'Limite di sistema superato',
-  'withdraw.address_placeholder': 'Inserisci indirizzo Ethereum',
   'dca.confirm_dca_plan': 'Conferma piano DCA',
   'dca.number_of_orders': 'Numero di ordini',
   'dca.amount_per_order': 'Importo per ordine',
@@ -338,22 +337,24 @@ const it = {
   Add: 'Aggiungi',
   Add_Funds: 'Aggiungi Fondi',
 
-  send_USDC_to_this_address: '',
-  Failed_to_proceed: '',
-  Please_select_the_Ethereum_network: '',
-  NATIVE_USDC_ONLY: '',
-  NEVER_send_bridged_USDC: '',
-  Network: '',
-  Arrival_Time: '',
-  Token_Contract: '',
-  please_select_network: '',
-  maximum_amount: '',
+  send_USDC_to_this_address: "invia USDC a quest'indirizzo",
+  Failed_to_proceed: 'impossibile procedere',
+  Please_select_the_Ethereum_network: 'Seleziona la rete Ethereum.',
+  NATIVE_USDC_ONLY: 'Solo Token USDC nativo',
+  NEVER_send_bridged_USDC: 'Non inviare USDC non nativi tramite bridge',
+  Network: 'Rete',
+  Arrival_Time: 'Tempo di arrivo',
+  Token_Contract: 'Contratto del token',
+  please_select_network: 'Selezioan la Rete',
+  maximum_amount: 'Massimo importo',
   Select: 'Seleziona',
-  cannot_send_to_yourself: '',
-  max_amount_exceeded: '',
-  do_not_trasnfer_to_cex: '',
-  I_understand: '',
-  Continue: '繼續',
+  cannot_send_to_yourself:
+    "Impossibile inviare a te stesso all'interno della rete DeGate",
+  max_amount_exceeded: 'Importo massimo superato',
+  do_not_trasnfer_to_cex:
+    'Si prega di <b>NON</b> trasferire all’ exchange centralizzati. Sarai soggetto a perdita di fondi. Potresti perdere i tuoi fondi.',
+  I_understand: 'ho capito',
+  Continue: 'Continua',
   chain_0: 'DeGate',
   chain_1: 'Ethereum',
   chain_17000: 'Ethereum',
@@ -388,14 +389,18 @@ const it = {
   'account.pay_deposit_warning':
     "L'aggiunta di fondi potrebbe comportare una tassa di gas aggiuntiva",
 
-  send_method: '',
-  arrival_time: '',
-  Economy: '',
-  Fast: '',
-  Instant: '',
-  less_than_X_hours: '',
-  less_than_1_hour: '',
-  Economy_tips: '',
+  send_method: 'metodo_invio',
+  Economy: 'Economico',
+  Fast: 'Veloce',
+  Instant: 'Istantaneo',
+  less_than_X_hours: 'Meno di X ore',
+  less_than_1_hour: 'meno di 1 ora',
+  Economy_tips:
+    'Processi DeGate Invia richieste almeno ogni 4 ore, spesso prima. Ad esempio, se un altro utente avvia un Invio rapido, anche la tua richiesta di Invio Economy verrà elaborata immediatamente.',
+  wrap: 'Avvolgere',
+
+  just_a_moment: '',
+  wait_confirmation_from_wallet: '',
 };
 
 export default it;

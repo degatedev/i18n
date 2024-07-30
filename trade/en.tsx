@@ -241,6 +241,7 @@ const en = {
   feedback_failed: 'Submission failed. Please try again later.',
   image_upload_rule_1: 'Support PNG, JPG, JPEG only.',
   image_upload_rule_2: 'Max size is 20MB per file.',
+  image_upload_rule_3: 'Up to 5 files.',
   image_upload_rule_2_3: 'Max size is 20MB per file. Up to 5 files.',
   no_pair: 'Token Pair Not Found',
   no_token: 'Token Not Found',
@@ -334,7 +335,6 @@ const en = {
     'Contract address, Icon, and Symbol are unverified. Please check the contract address with official sources to avoid scams.',
   token_verified: 'Verified',
   token_verified_tips: 'Contract address, Icon, and Symbol match.',
-  arrival_time: 'Arrive in',
   deposit_tips_region:
     'Please note that you are accessing DeGate in REGION. The trading and internal transfer features are unavailable after fund addition.',
   complete_time: 'Complete in',
@@ -519,7 +519,7 @@ const en = {
   'account.suggest_100': '≥$100 suggested',
   'account.suggest_100_tips':
     'To place a limit order, amount over $100 is suggested.',
-  'account.deposit_failed': 'Failed',
+  'account.deposit_failed': 'Fail',
   'account.deposit_failed_tips':
     'The on-chain transaction for adding funds has failed.',
   'account.payment_due': 'Payment Due',
@@ -1069,7 +1069,7 @@ const en = {
   'dca.filled_amount': 'Filled/Amount',
   'dca.status_executed': 'Executed',
   'dca.status_scheduled': 'Scheduled',
-  'dca.status_failed': 'Failed',
+  'dca.status_failed': 'Fail',
   'dca.order_cancled_by_user':
     'Order canceled because user ended the DCA plan.',
   'dca.order_cancled_by_access':
@@ -1257,8 +1257,8 @@ const en = {
   eligibility: 'Eligibility',
   rewards: 'Rewards',
   view_mining_statistics: 'View Mining Statistics',
-  your_entry: 'Your entry',
-  refunded: 'Refunded',
+  your_entry: 'Fund input',
+  refunded: 'Returned',
   large_price_spread: 'Large Price Spread',
   large_price_spread_tips:
     'The order book shows a large spread between the lowest sell and the highest buy prices, posing a risk of loss. Investing with Dual Asset mode is recommended.',
@@ -1325,7 +1325,6 @@ const en = {
 
   Receive: 'Receive',
   Network: 'Network',
-  Arrival_Time: 'Arrival Time',
   Token_Contract: 'Token Contract',
   please_select_network: 'Please select network',
   maximum_amount: 'Maximum Amount',
@@ -1362,6 +1361,32 @@ const en = {
     'You remaining order was canceled due to a sudden drop in order book liquidity. This protective measure prevents fills at unfavorable prices.',
   'orders.export_data_2_year': 'Export data from past 2 years',
   Community: 'Community',
+
+  complete_in_seconds: 'Complete in seconds',
+  failed_to_send: 'Failed to send. Please try again.',
+  failed_to_send_try_other_networks:
+    'Failed to send. Please try other networks.',
+  gas_fee_deducted: 'Gas fee deducted: ',
+  sum_XXX: 'Sum XXX',
+  chart_control_7d: '7D',
+  chart_control_30d: '30D',
+  chart_control_all: 'all',
+  chart_control_day: 'D',
+  chart_control_week: 'W',
+  chart_control_month: 'M',
+
+  Coming: 'Coming',
+  leave_survey_title: "Hey, looks like you're leaving DeGate.️",
+  leave_survey_subtitle:
+    'Please help us do better with you feedback. \nSelect all that apply.',
+  leave_survey_not_leaving: "I'm not leaving, I'll be coming back silly.",
+  leave_survey_other_is_fine: 'Binance/OKX/Kraken etc. is working fine for me.',
+  leave_survey_bad_experience: "I don't like the trading experience.",
+  leave_survey_no_yield: "I didn't find any opportunities for yield.",
+  leave_survey_no_needed_token: "I didn't find the tokens I want to trade.",
+  leave_survey_other_reason: 'Others (please let us know in the box below)',
+  leave_survey_thanks_for_feedback: 'Thanks for your feedback',
+  Submitted: 'Submitted',
 };
 
 export default en;

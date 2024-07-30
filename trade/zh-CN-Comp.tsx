@@ -51,7 +51,7 @@ const zhCN = {
   ),
   'account.transfer_status_help': (
     <>
-      <b>已发送/已接收</b>
+      <b>成功</b>
       <br />
       资金已到账，等待以太坊上达到最终性
       <br />

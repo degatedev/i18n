@@ -53,7 +53,7 @@ const en = {
   ),
   'account.transfer_status_help': (
     <>
-      <b>Sent/Received</b> <br />
+      <b>Success</b> <br />
       Asset has arrived. Awaiting finality on the Ethereum network.
       <br />
       <br />

@@ -54,7 +54,7 @@ const zhCN = {
   ),
   'account.transfer_status_help': (
     <>
-      <b>已發送/已收到</b> <br />
+      <b>成功</b> <br />
       資產已到達。正在等待以太坊網絡的最終確認。
       <br />
       <br />

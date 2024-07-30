@@ -254,7 +254,7 @@ const tw = {
   'transfer.transfer_1_eth_ACCOUNT': '轉帳 1 ETH 至',
   'transfer.internal_transfer_address_new_tips':
     '該地址沒有之前的 DeGate 歷史記錄。轉帳至此地址將需要額外的燃氣費。',
-  'transfer.address_placeholder': '輸入地址',
+  address_placeholder: '輸入地址',
   'transfer.to_new_account_tips':
     '該地址沒有之前的 DeGate 歷史記錄。由於第一個資產接收將引發額外的鏈上數據使用，執行此內部轉賬將產生額外的燃氣費。',
   'transfer.confirm_internal_transfer': '確認內部轉帳',
@@ -266,7 +266,6 @@ const tw = {
   'transfer.recipient_cex_warning':
     '警告：請勿轉帳至中心化交易所。您將會損失資金。',
   'withdraw.withdraw_max_tips': '系統限額已超出',
-  'withdraw.address_placeholder': '輸入以太坊地址',
   'dca.confirm_dca_plan': '確認定投計劃',
   'dca.number_of_orders': '訂單數量',
   'dca.amount_per_order': '每筆訂單金額',
@@ -323,7 +322,8 @@ const tw = {
   Select: '選擇',
   cannot_send_to_yourself: '無法在 DeGate 網絡內發送給自己',
   max_amount_exceeded: '超出最大數量',
-  do_not_trasnfer_to_cex: '請<b>不要</b>轉賬至中心化交易所。您將面臨資金損失。您可能會失去您的資金。',
+  do_not_trasnfer_to_cex:
+    '請<b>不要</b>轉賬至中心化交易所。您將面臨資金損失。您可能會失去您的資金。',
   I_understand: '我已明白',
   Continue: '繼續',
   chain_0: 'DeGate',
@@ -357,12 +357,16 @@ const tw = {
   'account.pay_deposit_warning': '添加資金可能會產生額外的燃料費',
 
   send_method: '發送方式',
-  arrival_time: '到帳時間',
   Economy: '經濟',
   Fast: '快速',
   Instant: '即時',
   less_than_X_hours: '< X 小時',
-  less_than_1_hours: '< 1 小時',
-  Economy_tips: 'DeGate每4小時至少處理一次發送請求，通常會更快。例如，如果另一個用戶發起了快速發送，您的經濟發送請求也會立即處理。',
+  less_than_1_hour: '< 1 小時',
+  Economy_tips:
+    'DeGate每4小時至少處理一次發送請求，通常會更快。例如，如果另一個用戶發起了快速發送，您的經濟發送請求也會立即處理。',
+  wrap: '跨鏈',
+
+  just_a_moment: '',
+  wait_confirmation_from_wallet: '',
 };
 export default tw;

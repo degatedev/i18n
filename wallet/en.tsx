@@ -276,7 +276,7 @@ const en = {
   'transfer.transfer_1_eth_ACCOUNT': 'Transfer 1 ETH to ',
   'transfer.internal_transfer_address_new_tips':
     'This address has no prior DeGate history. Transferring to this address will require additional gas fees.',
-  'transfer.address_placeholder': 'Enter address',
+  address_placeholder: 'Enter address',
   'transfer.to_new_account_tips':
     'This address has no prior DeGate history. As the first asset receipt initiates additional on-chain data usage, performing this internal transfer will incur extra gas fees.',
   'transfer.confirm_internal_transfer': 'Confirm Internal Transfer',
@@ -289,7 +289,6 @@ const en = {
   'transfer.recipient_cex_warning':
     'Warning: Please do not transfer to Centralized Exchange. You will lose the funds.',
   'withdraw.withdraw_max_tips': 'System limit exceeded',
-  'withdraw.address_placeholder': 'Enter Ethereum address',
   'dca.confirm_dca_plan': 'Confirm DCA Plan',
   'dca.number_of_orders': 'Number of Orders',
   'dca.amount_per_order': 'Amount per Order',
@@ -384,13 +383,15 @@ const en = {
   'account.pay_deposit_warning': 'Adding funds may incur additional gas fee',
 
   send_method: 'Method',
-  arrival_time: 'Arrival Time',
   Economy: 'Economy',
   Fast: 'Fast',
   Instant: 'Instant',
   less_than_X_hours: '< X hours',
-  less_than_1_hours: '< 1 hours',
+  less_than_1_hour: '< 1 hours',
   Economy_tips:
     'DeGate processes Send requests at least every 4 hours, often sooner. For instance, if another user initiates a Fast Send, your Economy Send request will be processed immediately as well.',
+  wrap: 'wrap',
+  just_a_moment: 'Just a moment',
+  wait_confirmation_from_wallet: 'Waiting for confirmation from wallet',
 };
 export default en;

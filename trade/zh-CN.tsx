@@ -230,6 +230,7 @@ const zhCN = {
   feedback_failed: '提交失败，请稍后重试',
   image_upload_rule_1: '仅支持PNG, JPG, JPEG格式的附件',
   image_upload_rule_2: '单个不超过20MB',
+  image_upload_rule_3: '最多5个',
   image_upload_rule_2_3: '单个不超过20MB，最多5个',
   no_pair: '未找到交易对',
   no_token: '未找到此币种',
@@ -320,7 +321,6 @@ const zhCN = {
     '合约地址、图标和代币名未经验证。请检查合约地址是否来自官方渠道，以避免诈骗。',
   token_verified: '已验证',
   token_verified_tips: '合约地址、图标和代币名是互相匹配的。',
-  arrival_time: '到账时间',
   deposit_tips_region:
     '请注意：您正在从REGION访问DeGate，资金划入后无法交易和内部转账。',
   complete_time: '完成时间',
@@ -1243,7 +1243,6 @@ const zhCN = {
 
   Receive: '收款',
   Network: '网络',
-  Arrival_Time: '到账时间',
   Token_Contract: '币种合约',
   please_select_network: '请选择网络',
   maximum_amount: '最大数量',
@@ -1280,6 +1279,30 @@ const zhCN = {
     '由于订单簿流动性突然下降，您的剩余订单已被取消。这一保护措施是为了防止订单以不利的价格成交。',
   'orders.export_data_2_year': '导出最近2年数据',
   Community: '社区',
+
+  complete_in_seconds: '立即完成',
+  failed_to_send: '发送失败，请重试',
+  failed_to_send_try_other_networks: '发送失败，请尝试其他网络',
+  gas_fee_deducted: '已扣除矿工费：',
+  sum_XXX: '合计 XXX',
+  chart_control_7d: '7天',
+  chart_control_30d: '30天',
+  chart_control_all: '全部',
+  chart_control_day: '日',
+  chart_control_week: '周',
+  chart_control_month: '月',
+
+  Coming: '即将开始',
+  leave_survey_title: '嘿，看起来你要离开DeGate了',
+  leave_survey_subtitle: '我们可以通过您的反馈做得更好\n请选择所有适用的选项',
+  leave_survey_not_leaving: '我不离开，我会回来的',
+  leave_survey_other_is_fine: 'Binance/OKX/Kraken等对我来说够了',
+  leave_survey_bad_experience: '交易体验不好',
+  leave_survey_no_yield: '没有找到任何收益机会',
+  leave_survey_no_needed_token: '没有找到想要交易的代币',
+  leave_survey_other_reason: '其他（请在下面的框中告诉我们）',
+  leave_survey_thanks_for_feedback: '感谢您的反馈',
+  Submitted: '已提交',
 };
 
 export default zhCN;
