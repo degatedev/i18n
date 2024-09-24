@@ -111,7 +111,6 @@ const zh = {
   cancel_order: '取消订单',
   end_grid_strategy: '关闭网格策略',
   end_DCA: '关闭定投计划',
-  Seconds: '立即',
   complete_in_seconds: '立即完成',
   complete_in: '到账时间',
   me: '我',
@@ -364,5 +363,20 @@ const zh = {
   wrap: '跨链',
   just_a_moment: '请稍等',
   wait_confirmation_from_wallet: '等待钱包返回确认',
+  s: '秒',
+
+  doc_title:
+    'DeGate: 去中心化订单薄交易所 | 免费提供数字货币网格和定投交易机器人',
+  doc_desc:
+    'DeGate是一个领先的去中心化的订单薄交易所，支持数百种数字货币极低费率交易，提供免费的限价单交易，网格交易，定投策略机器人。',
+  doc_title_spot: ' | 去中心化订单薄交易所 | DeGate DEX',
+  doc_title_grid: ' | 去中心化网格交易机器人 | DeGate DEX',
+  doc_title_dca: ' | 去中心化定投机器人 | DeGate DEX',
+
+  view_asset_key_tips: `<div>Here are the details of your Asset Key. <strong>Do NOT share</strong> withanyone to prevent potential asset loss.</div>`,
+  personal_sign_tips: `<div>MetaMask requests you to sign again with <i>Personal Sign</i> method</div>`,
+  sign_and_open_free_mode_tips: `Signing is not required as the Signature-free mode will be turned on afterthis action.<br /><br />To switch mode, navigate to &quot;Settings&quot; below the Trade Button.`,
+  'trade.i_understand': `I understand the &nbsp;`,
+  'trade.flow_of_funds_tips': `<h3>Flow of Funds</h3>Funds will go to your DeGate Balance, not yourwallet balance.<br /><br /><h3>About DeGate Balance</h3>DeGate Balance represents the value thatusers hold within the DeGate smart contract.<br />Users maintain complete custody of DeGate Balance thanks to the fullydecentralized DeGate smart contract.`,
 };
 export default zh;

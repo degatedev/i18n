@@ -121,7 +121,6 @@ const it = {
   cancel_order: 'Annulla ordine',
   end_grid_strategy: 'Fine strategia a griglia',
   end_DCA: 'Fine piano DCA',
-  Seconds: 'Secondi',
   complete_in_seconds: 'Completa in secondi',
   complete_in: 'Completa in ',
   me: 'me',
@@ -399,8 +398,23 @@ const it = {
     'Processi DeGate Invia richieste almeno ogni 4 ore, spesso prima. Ad esempio, se un altro utente avvia un Invio rapido, anche la tua richiesta di Invio Economy verrà elaborata immediatamente.',
   wrap: 'Avvolgere',
 
-  just_a_moment: '',
-  wait_confirmation_from_wallet: '',
+  just_a_moment: 'Solo un momento ',
+  wait_confirmation_from_wallet: 'Attendere la conferma dal wallet',
+  s: 's',
+
+  doc_title:
+    'DeGate: Exchange Decentralizzato con Order Book | Bot di Trading Gratuito su GRID e DCA',
+  doc_desc:
+    "DeGate è un'importante exchange decentralizzato con order book che offre trading a basse commissioni per centinaia di criptovalute, con trading tramite ordini limit gratuiti e bot per il grid trading e DCA.",
+  doc_title_spot: ' | Order Book Decentralizzato | DeGate DEX',
+  doc_title_grid: ' | Bot di Grid Trading Decentralizzato | DeGate DEX',
+  doc_title_dca: ' | Bot di Trading DCA Decentralizzato | DeGate DEX',
+
+  view_asset_key_tips: `<div>Ecco i dettagli della tua Chiave di Asset.{' '}<strong>NON condividere</strong> con nessuno per evitare possibili perditedi asset.</div>`,
+  personal_sign_tips: `<div>MetaMask richiede di firmare nuovamente con il metodo <i>Personal Sign</i>.</div>`,
+  sign_and_open_free_mode_tips: `La firma non è richiesta poiché la modalità Senza Firma verrà attivatadopo questa azione.<br /><br />Per cambiare modalità, vai su "Impostazioni" sotto il Pulsante di Trading.`,
+  'trade.i_understand': `Capisco il &nbsp;`,
+  'trade.flow_of_funds_tips': `<h3>Flusso dei Fondi</h3>I fondi andranno al tuo Saldo DeGate, non alsaldo del portafoglio.<br /><br /><h3>Riguardo al Saldo DeGate</h3>Il Saldo DeGate rappresenta il valore chegli utenti detengono all'interno del contratto intelligente DeGate.<br />Gli utenti mantengono la custodia completa del Saldo DeGate grazie alcontratto intelligente DeGate completamente decentralizzato.`,
 };
 
 export default it;

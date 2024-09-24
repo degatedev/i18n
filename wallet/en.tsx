@@ -119,7 +119,6 @@ const en = {
   cancel_order: 'Cancel Order',
   end_grid_strategy: 'End Grid Strategy',
   end_DCA: 'End DCA Plan',
-  Seconds: 'Seconds',
   complete_in_seconds: 'Complete in seconds',
   complete_in: 'Complete in ',
   me: 'me',
@@ -387,11 +386,26 @@ const en = {
   Fast: 'Fast',
   Instant: 'Instant',
   less_than_X_hours: '< X hours',
-  less_than_1_hour: '< 1 hours',
+  less_than_1_hour: '< 1 hour',
   Economy_tips:
     'DeGate processes Send requests at least every 4 hours, often sooner. For instance, if another user initiates a Fast Send, your Economy Send request will be processed immediately as well.',
   wrap: 'wrap',
   just_a_moment: 'Just a moment',
   wait_confirmation_from_wallet: 'Waiting for confirmation from wallet',
+  s: 's',
+
+  doc_title:
+    'DeGate: Decentralized Order Book Exchange | Free Crypto Trading Bot on GRID and DCA',
+  doc_desc:
+    'DeGate is a top decentralized order book exchange offering low-fee the trading for hundreds of cryptocurrencies, with free limit order trading, grid trading and DCA bots.',
+  doc_title_spot: ' | Decentralized Order book | DeGate DEX',
+  doc_title_grid: ' | Decentralized Grid Trading Bot | DeGate DEX',
+  doc_title_dca: ' | Decentralized DCA Trading Bot | DeGate DEX',
+
+  view_asset_key_tips: `<div>Here are the details of your Asset Key. <strong>Do NOT share</strong> withanyone to prevent potential asset loss.</div>`,
+  personal_sign_tips: `<div>MetaMask requests you to sign again with <i>Personal Sign</i> method</div>`,
+  sign_and_open_free_mode_tips: `Signing is not required as the Signature-free mode will be turned on afterthis action.<br /><br />To switch mode, navigate to &quot;Settings&quot; below the Trade Button.`,
+  'trade.i_understand': `I understand the &nbsp;`,
+  'trade.flow_of_funds_tips': `<h3>Flow of Funds</h3>Funds will go to your DeGate Balance, not yourwallet balance.<br /><br /><h3>About DeGate Balance</h3>DeGate Balance represents the value thatusers hold within the DeGate smart contract.<br />Users maintain complete custody of DeGate Balance thanks to the fullydecentralized DeGate smart contract.`,
 };
 export default en;

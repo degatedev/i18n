@@ -117,11 +117,6 @@ const zhCN = {
       由於完全去中心化的 DeGate 智能合約，用戶可以完全保管 DeGate 餘額。
     </>
   ),
-  'gridTrade.grid_free_tips': (
-    <>
-      網格策略現在<b>免費</b>了！
-    </>
-  ),
   'gridOrders.detail_transactions_unit': <>次</>,
   'gridOrders.grid_cancel_tips_text': <>實現獎勵</>,
   'gridOrders.grid_cancel_tips_content': `網格策略運作12小時後，挖礦獎勵將會實現。`,

@@ -301,7 +301,6 @@ const zhCN = {
   YTD: 'YTD',
   Y1: '1年',
   all: '全部',
-  view_more: '查看更多',
   paste: '粘贴',
   clear: '清除',
   total: '总计',
@@ -1303,6 +1302,36 @@ const zhCN = {
   leave_survey_other_reason: '其他（请在下面的框中告诉我们）',
   leave_survey_thanks_for_feedback: '感谢您的反馈',
   Submitted: '已提交',
+
+  doc_title:
+    'DeGate: 去中心化订单薄交易所 | 免费提供数字货币网格和定投交易机器人',
+  doc_desc:
+    'DeGate是一个领先的去中心化的订单薄交易所，支持数百种数字货币极低费率交易，提供免费的限价单交易，网格交易，定投策略机器人。',
+  doc_title_spot: ' | 去中心化订单薄交易所 | DeGate DEX',
+  doc_title_grid: ' | 去中心化网格交易机器人 | DeGate DEX',
+  doc_title_dca: ' | 去中心化定投机器人 | DeGate DEX',
+
+  Notification: '通知',
+  read_all: '全部已读',
+  important: '重要',
+  general: '通用',
+  view_more: '查看更多',
+  thats_all: '暂时没有更多了',
+  XXX_fund_addition_processing: 'XXX 资金划入处理中',
+  add_AMOUNT_XXX_to_DeGate: '划入 AMOUNT XXX 至 DeGate',
+  XXX_fund_addition_successful: 'XXX 资金划入成功',
+  XXX_send_successful: 'XXX 发送成功',
+  send_AMOUNT_XXX_to_DeGate: '发送 AMOUNT XXX 至 DeGate(内部转账)',
+  send_AMOUNT_XXX_to_Ethereum: '发送 AMOUNT XXX 至 Ethereum',
+  you_have_received_a_new_airdrop: '您已收到新的空投！',
+  AMOUNT_XXX_can_be_claimed_after_YYYY_MM_DD:
+    'AMOUNT XXX 能够在 YYYY-MM-DD 后领取',
+  MARKET_Chart: 'MARKET 图表',
+  grid_free: '网格策略交易<b>免费<b/>',
+  maker_free_tips: '挂单方交易<b>免费<b/>',
+  Audit: '审计',
+  Tool: '工具',
+  About: '关于',
 };
 
 export default zhCN;

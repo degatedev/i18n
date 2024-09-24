@@ -67,8 +67,10 @@ const tw = {
   personal_sign_reason3: '3. 其他',
   personal_sign_btn: '重新簽名',
   switch_wallet: '切換帳戶',
-  switch_walletConnect_tips1: '如果您希望切換到同一錢包中的另一個帳戶，請直接從錢包執行並取消此操作',
-  switch_walletConnect_tips2: '如果您希望透過不同的錢包使用 WalletConnect，系統會先中斷目前的連接',
+  switch_walletConnect_tips1:
+    '如果您希望切換到同一錢包中的另一個帳戶，請直接從錢包執行並取消此操作',
+  switch_walletConnect_tips2:
+    '如果您希望透過不同的錢包使用 WalletConnect，系統會先中斷目前的連接',
   switch_walletConnect_continue: '中斷並繼續',
   switch_metamask_tips: '請前往 MetaMask 切換帳戶',
   switch_browser_wallet_tips: '請在瀏覽器錢包中切換帳戶',
@@ -108,7 +110,6 @@ const tw = {
   cancel_order: '取消訂單',
   end_grid_strategy: '結束網格策略',
   end_DCA: '結束定投計劃',
-  Seconds: '秒',
   complete_in_seconds: '立即完成',
   complete_in: '完成時間',
   me: '我',
@@ -144,19 +145,23 @@ const tw = {
   'grid.profit_per_grid': '每個網格的利潤',
   'grid.expired_in': '到期時間',
   'grid.replace_modal_title': '網格策略已更新',
-  'grid.replace_modal_content': '由於訂單簿最近的變化，原始網格策略已更新如下。',
+  'grid.replace_modal_content':
+    '由於訂單簿最近的變化，原始網格策略已更新如下。',
   'grid.replace_modal_pre': '之前',
   'grid.replace_modal_next': '之後',
   'grid.replace_modal_err': '餘額不足以建立網格策略。請返回編輯網格參數。',
   'ledger.connect_rule_1': '1. 將 Ledger 連接到您的設備',
   'ledger.connect_rule_2': '2. 在 Ledger 上解鎖',
   'ledger.connect_rule_3': '3. 在 Ledger 上打開 Ethereum app',
-  'ledger.connect_rule_4': '4. 確認已開啟 Blind Signing, Contract Data 和 Browser Support 功能',
+  'ledger.connect_rule_4':
+    '4. 確認已開啟 Blind Signing, Contract Data 和 Browser Support 功能',
   'ledger.unable_to_approve': '無法確認',
-  'ledger.webusb_1tab_tips_desc_1': '此瀏覽器僅支援單分頁 Ledger 授權。由於另一個分頁正在使用此功能，無法確認。',
+  'ledger.webusb_1tab_tips_desc_1':
+    '此瀏覽器僅支援單分頁 Ledger 授權。由於另一個分頁正在使用此功能，無法確認。',
   'ledger.webusb_1tab_tips_desc_2': '請嘗試重新插入 Ledger 並再次操作。',
   'ledger.locked_tips': '請解鎖 Ledger，打開以太坊應用程式並確認。',
-  'ledger.account_not_match': '偵測到錯誤的 Ledger 錢包。請連接到正確的 Ledger。',
+  'ledger.account_not_match':
+    '偵測到錯誤的 Ledger 錢包。請連接到正確的 Ledger。',
   'ledger.ledger_choose_address': '選擇地址',
   'ledger.address': '地址',
   'ledger.connect': '連接',
@@ -168,25 +173,32 @@ const tw = {
   'ledger.edit_gas_fee': '編輯 Gas Fee',
   'ledger.max_fee': 'Gas Fee（Gwei）',
   'ledger.max_base_fee': '最大Base Fee (Gwei)',
-  'ledger.max_base_fee_tips': '交易處理後，設定的最大Base Feee和實際Base Fee之間的差額將會退回。',
+  'ledger.max_base_fee_tips':
+    '交易處理後，設定的最大Base Feee和實際Base Fee之間的差額將會退回。',
   'ledger.priority_fee': 'Priority Fee (Gwei)',
-  'ledger.priority_fee_tips': 'Priority fee（礦工小費）直接支付給礦工，鼓勵他們優先處理您的交易。',
+  'ledger.priority_fee_tips':
+    'Priority fee（礦工小費）直接支付給礦工，鼓勵他們優先處理您的交易。',
   'ledger.gas_limit': 'Gas Limit：',
   'ledger.tx_speed_up_title': '加速交易',
   'ledger.tx_speed_up_desc': '將在以太坊上加速交易，請確認：',
   'ledger.tx_cancel_title': '取消交易',
   'ledger.tx_cancel_desc': '將在以太坊上取消交易，請確認：',
   'ledger.fee_minimum_xxx': '不能少於XXX',
-  'ledger.ledger_app_version_tips': '將您Ledger的Ethereum app更新到1.9.19或更高版本，以在簽署之前預覽資訊。',
+  'ledger.ledger_app_version_tips':
+    '將您Ledger的Ethereum app更新到1.9.19或更高版本，以在簽署之前預覽資訊。',
   'operations.register_pair': '新增交易對',
   'operations.chain_cancel': '在鏈上取消訂單',
   'operations.chain_cancel_title': '此訂單取消操作將送上鏈以保證訂單的取消。',
   'operations.chain_cancel_confirm': '確認取消',
-  'operations.chain_cancel_confirm_tips': '在鏈上取消將產生Gas Fee，您是否要繼續？',
-  'operations.chain_cancel_grid_text_N': '在此網格策略中的<b> N 筆訂單</b>將送至鏈上取消。',
-  'operations.chain_cancel_grid_gas_AMOUNT_ETH': '請再次確認在鏈上取消的Gas Fee<b>金額 ETH </b>。',
+  'operations.chain_cancel_confirm_tips':
+    '在鏈上取消將產生Gas Fee，您是否要繼續？',
+  'operations.chain_cancel_grid_text_N':
+    '在此網格策略中的<b> N 筆訂單</b>將送至鏈上取消。',
+  'operations.chain_cancel_grid_gas_AMOUNT_ETH':
+    '請再次確認在鏈上取消的Gas Fee<b>金額 ETH </b>。',
   'operations.claim_title': '領取獎勵',
-  'operations.claim_desc': '此獎勵將透過內部轉帳轉入您的DeGate餘額，Gas Fee將直接從獎勵金額中扣除。',
+  'operations.claim_desc':
+    '此獎勵將透過內部轉帳轉入您的DeGate餘額，Gas Fee將直接從獎勵金額中扣除。',
   'operations.claim_desc_others': '此獎勵將透過內部轉帳轉入您的DeGate餘額。',
   'operations.claim_rewards': '可領取獎勵',
   'operations.claim_err_amount': '可領取金額不足',
@@ -202,19 +214,25 @@ const tw = {
   Wallet_Balance: '錢包餘額',
   'operations.pay_deposit_tips_XXX_ETH': '支付 XXX ETH',
   'operations.reset_account': '重設資產金鑰',
-  'operations.reset_desc': '資產金鑰位於您的瀏覽器快取中。如果您對本機的安全性有疑慮，請重設資產金鑰。',
-  'operations.reset_warning': '在重設期間，所有操作，如交易，發送或內部轉帳，都將暫停。',
+  'operations.reset_desc':
+    '資產金鑰位於您的瀏覽器快取中。如果您對本機的安全性有疑慮，請重設資產金鑰。',
+  'operations.reset_warning':
+    '在重設期間，所有操作，如交易，發送或內部轉帳，都將暫停。',
   'operations.reset_estimated_time': '預估時間',
-  'operations.reset_order_tips': '若開始重設，所有未完成的訂單和網格策略將被取消。',
+  'operations.reset_order_tips':
+    '若開始重設，所有未完成的訂單和網格策略將被取消。',
   'operations.reset_order_tips_btn2': '取消',
   'operations.claim_dg_rewards': '領取 DG 獎勵',
   'operations.claim_REBASE': '領取 REBASE',
-  'operations.claim_REBASE_desc': 'REBASE 將透過內部轉帳發送到您的 DeGate 餘額。',
+  'operations.claim_REBASE_desc':
+    'REBASE 將透過內部轉帳發送到您的 DeGate 餘額。',
   'operations.claim_REBASE_tips': '未領取的 REBASE 獎勵已納入收益計算。',
   'operations.view_yield_history': '查看收益歷史',
   'operations.cancel_orders_on_chain': '在鏈上取消訂單',
-  'operations.chain_cancel_dca_text_N': '在此定投計劃中的<b>N筆訂單</b>將送至在鏈上的取消。',
-  'operations.confirm_cancel_gas_AMOUNT_ETH': '請再次確認在鏈上取消的Gas Fee<b>金額ETH</b>。',
+  'operations.chain_cancel_dca_text_N':
+    '在此定投計劃中的<b>N筆訂單</b>將送至在鏈上的取消。',
+  'operations.confirm_cancel_gas_AMOUNT_ETH':
+    '請再次確認在鏈上取消的Gas Fee<b>金額ETH</b>。',
   'trade.confirm_order': '確認訂單',
   'trade.stop_limit_order': '止損限價',
   'trade.stop_price': '觸發價格',
@@ -226,22 +244,26 @@ const tw = {
   'trade.hide_pair_confirm': '不再顯示此交易對',
   'trade.pay_the_following_amount_to_place_order': '支付以下金額以完成下單：',
   'trade.flow_of_funds': '資金流動',
-  'trade.flow_of_funds_tip2': '您的訂單已下單。訂單資金將轉至您的DeGate餘額，而非錢包餘額。',
+  'trade.flow_of_funds_tip2':
+    '您的訂單已下單。訂單資金將轉至您的DeGate餘額，而非錢包餘額。',
   'trade.pay_to_place_order': '支付以下單',
   'trade.pay_xxx_USDC_to_place_order': '支付 xxx USDC 以下單',
   'trade.deposit_type': '轉入方法',
   'trade.deposit_type_standard': '標準',
   'transfer.transfer_1_eth_ACCOUNT': '轉帳 1 ETH 至',
-  'transfer.internal_transfer_address_new_tips': '該地址沒有DeGate使用記錄。轉帳至此地址將需要額外的Gas Fee。',
+  'transfer.internal_transfer_address_new_tips':
+    '該地址沒有DeGate使用記錄。轉帳至此地址將需要額外的Gas Fee。',
   address_placeholder: '輸入地址',
   'transfer.to_new_account_tips':
     '該地址沒有沒有DeGate使用記錄。由於第一次接收資金需要額外的鏈上處理，執行此內部轉帳將產生額外的Gas Fee。',
   'transfer.confirm_internal_transfer': '確認內部轉帳',
-  'transfer.internal_transfer_address_oneself_tips': '不支援向自己進行內部轉帳。',
+  'transfer.internal_transfer_address_oneself_tips':
+    '不支援向自己進行內部轉帳。',
   'transfer.transfer_max_err_XXX_USDT': '每次內部轉帳限額為 XXX USDT',
   'transfer.before': '之前',
   'transfer.after': '之後',
-  'transfer.recipient_cex_warning': '警告：請勿轉帳至中心化交易所。您將會損失資金。',
+  'transfer.recipient_cex_warning':
+    '警告：請勿轉帳至中心化交易所。您將會損失資金。',
   'withdraw.withdraw_max_tips': '已超出系統限額',
   'dca.confirm_dca_plan': '確認定投計劃',
   'dca.number_of_orders': '訂單數量',
@@ -299,7 +321,8 @@ const tw = {
   Select: '選擇',
   cannot_send_to_yourself: '無法在 DeGate 網路內發送給自己',
   max_amount_exceeded: '超出最大數量',
-  do_not_trasnfer_to_cex: '請<b>不要</b>轉帳至中心化交易所。您的資金可能會失去，無法找回。',
+  do_not_trasnfer_to_cex:
+    '請<b>不要</b>轉帳至中心化交易所。您的資金可能會失去，無法找回。',
   I_understand: '我了解',
   Continue: '繼續',
   chain_0: 'DeGate',
@@ -315,7 +338,8 @@ const tw = {
 
   deposit_tips_region: '請注意，您正在 REGION 使用 DeGate。',
   deposit_1_ETH: '存入 1 ETH 到您的 DeGate 餘額',
-  'account.deposit_contract_tips_over_AMOUNT': '超過 AMOUNT 美元的資金，僅支援進階方法存入。',
+  'account.deposit_contract_tips_over_AMOUNT':
+    '超過 AMOUNT 美元的資金，僅支援進階方法存入。',
   'account.deposit_contract_tips_only_all': '僅支援進階方法的資金存入',
   Approved: '已確認',
   Deposit: '存入',
@@ -342,5 +366,19 @@ const tw = {
   wrap: '跨鏈',
   just_a_moment: '請稍後',
   wait_confirmation_from_wallet: '等待錢包確認',
-}
-export default tw
+  s: '秒',
+
+  doc_title: 'DeGate：去中心化訂單簿交易所 | 免費網格和定投加密交易機器人',
+  doc_desc:
+    'DeGate 是一家頂尖的去中心化訂單簿交易所，提供數百種加密貨幣的极低費率交易，並提供免費的限價單交易、網格交易和定投機器人。',
+  doc_title_spot: ' | 去中心化訂單簿交易所 | DeGate DEX',
+  doc_title_grid: ' | 去中心化網格交易機器人 | DeGate DEX',
+  doc_title_dca: ' | 去中心化定投交易機器人 | DeGate DEX',
+
+  view_asset_key_tips: `<div>以下是您的資產密鑰的詳細信息。 <strong> 請勿 </strong> 與任何人分享</div>`,
+  personal_sign_tips: `<div>MetaMask 請求您使用 <i>Personal Sign</i> 方法重新簽名</div>`,
+  sign_and_open_free_mode_tips: `<>本操作后免簽名模式将被開啟，無需再簽名。<br /><br />要切換模式，請至「交易按鈕」下方進行設定。</>`,
+  'trade.i_understand': '我理解',
+  'trade.flow_of_funds_tips': `<><h3>資金流動</h3>資金將支付至您的 DeGate 餘額，而非您的錢包餘額。<br /><br /><h3>關於 DeGate 餘額</h3>DeGate 餘額代表用戶在 DeGate智能合約中持有的代幣。<br />由於 DeGate 智能合約完全去中心化的特性 ，用戶可以完全掌控 DeGate 餘額。</>`,
+};
+export default tw;

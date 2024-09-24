@@ -1,6 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-const it = {
+const de = {
   stop_limit_order_desc: ({
     stopPrice,
     quoteSymbol,
@@ -53,5 +52,4 @@ const it = {
       </div>
     </div>`,
 };
-
-export default it;
+export default de;

@@ -109,11 +109,6 @@ const zhCN = {
       用户完全掌控自己的DeGate余额，因为DeGate的智能合约是完全去中心化的。
     </>
   ),
-  'gridTrade.grid_free_tips': (
-    <>
-      网格策略完全<b>免费</b>了！
-    </>
-  ),
   'gridOrders.detail_transactions_unit': <>次</>,
   'gridOrders.grid_cancel_tips_text': <>还需等待</>,
   'gridOrders.grid_cancel_tips_content': `网格策略运行满12小时后可领取挖矿奖励`,

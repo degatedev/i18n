@@ -1,5 +1,5 @@
 import React from 'react';
-const en = {
+const ja = {
   stop_limit_order_desc: ({
     stopPrice,
     quoteSymbol,
@@ -19,38 +19,35 @@ const en = {
   }) => {
     return (
       <>
-        If the latest price{' '}
-        {isStopPriceLessThanLastPrice
-          ? 'drop to or below '
-          : 'rises to or above '}
+        最新価格が{' '}
+        {isStopPriceLessThanLastPrice ? 'に達するか下回る' : 'に達するか上回る'}
         <b>
           {stopPrice} {quoteSymbol}
         </b>
-        , an order to {isBuy ? 'buy' : 'sell'}{' '}
+        と、{' '}
         <b>
           {baseAmount} {baseSymbol}
         </b>{' '}
-        at the price of{' '}
+        を{' '}
         <b>
           {price} {quoteSymbol}
         </b>{' '}
-        will be placed.
+        の価格で{isBuy ? '買う' : '売る'}注文が行われます。
       </>
     );
   },
   'account.deposit_contract_tips_AMOUNT': `<div>
-      <b>Standard</b>
+      <b>標準</b>
       <div>
-        Through a simple token transfer to the DeGate smart contract, funds are
-        added while minimizing gas fees. This method has a per transaction cap
-        of {AMOUNT}USD.
+        DeGateスマートコントラクトへのシンプルトークン転送を通じて、ガス料金を最小限に抑えながら資金が追加されます。この方法では、1回の取引の上限が
+        {AMOUNT}USDです。
       </div>
       <br />
-      <b>Advanced</b>
+      <b>高度</b>
       <div>
-        This method employs an internal function of the DeGate smart contract,
-        incurring higher gas fees. However, it comes with no maximum limit.
+        この方法では、DeGateスマートコントラクトの内部関数を使用し、ガス料金が高くなりますが、最大限度がありません。
       </div>
     </div>`,
 };
-export default en;
+
+export default ja;

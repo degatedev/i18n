@@ -19,37 +19,36 @@ const en = {
   }) => {
     return (
       <>
-        If the latest price{' '}
+        Son fiyat{' '}
         {isStopPriceLessThanLastPrice
-          ? 'drop to or below '
-          : 'rises to or above '}
+          ? 'düşerse veya altına inerse '
+          : 'yükselirse veya üstüne çıkarsa '}
         <b>
           {stopPrice} {quoteSymbol}
         </b>
-        , an order to {isBuy ? 'buy' : 'sell'}{' '}
+        , bir {isBuy ? 'alış' : 'satış'} emri{' '}
         <b>
           {baseAmount} {baseSymbol}
         </b>{' '}
-        at the price of{' '}
+        fiyatından{' '}
         <b>
           {price} {quoteSymbol}
         </b>{' '}
-        will be placed.
+        verilecektir.
       </>
     );
   },
   'account.deposit_contract_tips_AMOUNT': `<div>
-      <b>Standard</b>
+      <b>Standart</b>
       <div>
-        Through a simple token transfer to the DeGate smart contract, funds are
-        added while minimizing gas fees. This method has a per transaction cap
-        of {AMOUNT}USD.
+        Basit bir token transferi ile DeGate akıllı kontratına fon eklenir ve
+        gaz ücretleri minimumda tutulur. Bu yöntemle işlem başına {AMOUNT}USD limiti vardır.
       </div>
       <br />
-      <b>Advanced</b>
+      <b>Gelişmiş</b>
       <div>
-        This method employs an internal function of the DeGate smart contract,
-        incurring higher gas fees. However, it comes with no maximum limit.
+        Bu yöntem, DeGate akıllı sözleşmesinin dahili bir fonksiyonunu kullanır,
+        daha yüksek gaz ücretleri doğurur. Ancak, maksimum limit yoktur.
       </div>
     </div>`,
 };

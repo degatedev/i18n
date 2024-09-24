@@ -122,11 +122,6 @@ const en = {
       decentralized DeGate smart contract.
     </>
   ),
-  'gridTrade.grid_free_tips': (
-    <>
-      Grid strategies are now <b>free</b>!
-    </>
-  ),
   'gridOrders.detail_transactions_unit': (
     <>
       <span></span>

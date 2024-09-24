@@ -53,7 +53,7 @@ const it = {
   ),
   'account.transfer_status_help': (
     <>
-      <b>Inviato/Ricevuto</b> <br />
+      <b>Successo</b> <br />
       L'asset è arrivato. In attesa della finalità sulla rete Ethereum.
       <br />
       <br />
@@ -122,11 +122,6 @@ const it = {
       <br />
       Gli utenti mantengono la custodia completa del Saldo DeGate grazie al
       smart contract DeGate completamente decentralizzato.
-    </>
-  ),
-  'gridTrade.grid_free_tips': (
-    <>
-      Le strategie a griglia sono ora <b>gratuite</b>!
     </>
   ),
   'gridOrders.detail_transactions_unit': (

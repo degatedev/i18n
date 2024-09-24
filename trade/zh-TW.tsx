@@ -68,7 +68,8 @@ const zhTW = {
   switch_to_Arbitrum: '請切換至 Arbitrum 網路以繼續',
   switch_to_MAINNET_in_metamask: '請在 MetaMask 切換為 MAINNET',
   switch_to_MAINNET: '請切換為 MAINNET',
-  switch_network_in_walletconnect: '請前往您的錢包，並使用 WalletConnect 切換網路',
+  switch_network_in_walletconnect:
+    '請前往您的錢包，並使用 WalletConnect 切換網路',
   Retry: '請重試',
   wallet_tips: '請在瀏覽器錢包中確認',
   wallet_ledger_tips: '請在 Ledger 冷錢包中確認',
@@ -94,9 +95,11 @@ const zhTW = {
   no_data_within_90_days: '過去90天內無資料',
   only_display_90_days: '僅顯示過去90天的資料',
   displayed_90_days: '顯示過去90天的資料',
-  only_data_beyond_90_days_trade: '要取得超過90天的資料，請選擇「查看全部」，然後選擇「匯出資料」功能。',
+  only_data_beyond_90_days_trade:
+    '要取得超過90天的資料，請選擇「查看全部」，然後選擇「匯出資料」功能。',
   only_data_beyond_90_days_grid_detail: '目前不支援超過最近90天的資料查詢',
-  only_data_beyond_90_days_spot_history: '要取得超過90天的資料，請使用「匯出資料」功能。',
+  only_data_beyond_90_days_spot_history:
+    '要取得超過90天的資料，請使用「匯出資料」功能。',
   View: '查看',
   service_unavailable_for_region_REGION: '此服務在 REGION 無法使用。',
   service_unavailable: '服務無法使用',
@@ -298,7 +301,6 @@ const zhTW = {
   YTD: '年初至今',
   Y1: '1年',
   all: '全部',
-  view_more: '更多',
   paste: '貼上',
   clear: '清除',
   total: '總計',
@@ -314,7 +316,8 @@ const zhTW = {
   incompatible_token: '此代幣的技術規格與 DeGate 協議不相容。',
   next: '下一步',
   token_not_verified: '未驗證',
-  token_not_verified_tips: '合約地址、圖示和符號未經驗證。請檢查合約地址以避免假代幣詐騙。',
+  token_not_verified_tips:
+    '合約地址、圖示和符號未經驗證。請檢查合約地址以避免假代幣詐騙。',
   token_verified: '已驗證',
   token_verified_tips: '合約地址、圖示和符號相符。',
   deposit_tips_region: '請注意，您正在 REGION 中使用 DeGate。',
@@ -332,12 +335,14 @@ const zhTW = {
   removed_to_favorites: '從收藏夾中刪除',
   show_recents_50: '已顯示最新的 50 條資料。',
   terms_of_service: '服務條款',
-  tips_small_unfilled: '根據系統設計中指定的精度，部分未成交的訂單已退回到您的DeGate餘額。',
+  tips_small_unfilled:
+    '根據系統設計中指定的精度，部分未成交的訂單已退回到您的DeGate餘額。',
   notification: '通知',
   server_message_SystemRecovery: '請注意，系統恢復後，您的訂單狀態已更改。',
   learn_more: '了解更多',
   connect_ledger: '連接 Ledger 冷錢包',
-  ledger_disconnect: "在 'USB 裝置' 上執行 'transferOut' 失敗：裝置已中斷連接。",
+  ledger_disconnect:
+    "在 'USB 裝置' 上執行 'transferOut' 失敗：裝置已中斷連接。",
   gas_fee_expired: 'Gas Fee已過期。請重新送出。',
   scroll_down_to_refresh: '向下捲動以重新整理',
   release_to_refresh_immediately: '釋放以重新整理',
@@ -375,7 +380,8 @@ const zhTW = {
   security: '安全',
   colon: '：',
   zero_balance: '零餘額',
-  ledger_app_version_tips: '請更新您的 Ledger 上的Ethereum應用至 v1.10.0 或更新版本，以預覽要簽署的訊息。',
+  ledger_app_version_tips:
+    '請更新您的 Ledger 上的Ethereum應用至 v1.10.0 或更新版本，以預覽要簽署的訊息。',
   ledger_contract_data_tips: '請在Ethereum應用程式設定中啟用盲簽或合約資料。',
   input_auto_corrected_tooltips: '已超過最大位數，系統自動更正您的輸入。',
   maximum_decimal_reached: '已達到最大小數位數',
@@ -465,7 +471,8 @@ const zhTW = {
   'account.assets_market': '價值',
   'account.transfer_to_degate_balance': '新增到 DeGate 餘額',
   'account.search_tokens': '搜尋代幣',
-  'account.deposit_title': '資產將存入您的去中心化 DeGate 帳戶。您擁有這些資產完全的控制權。',
+  'account.deposit_title':
+    '資產將存入您的去中心化 DeGate 帳戶。您擁有這些資產完全的控制權。',
   'account.deposit_tips': '您擁有這些資產完全的控制權。',
   'account.deposit_confirm_btn': '新增',
   'account.deposit_approved_btn': '已確認',
@@ -477,10 +484,14 @@ const zhTW = {
   'account.deposit_tips_block': '等待交易區塊打包',
   'account.deposit_status_pay_btn': '支付',
   'account.pay_deposit_warning': '新增資金可能會產生額外的Gas Fee',
-  'account.pay_deposit_warning_tips': '由於 DeGate 的補貼已用完，使用者可能需要承擔新增資金的成本。',
-  'account.deposit_pending_tips': '如果等待時間超過 5 分鐘，請在您的錢包中加快交易速度。',
-  'account.deposit_pending_tips_ledger': '如果等待時間超過 5 分鐘，請加快交易速度。',
-  'account.deposit_contract_tips_over_AMOUNT': '對於超過 AMOUNT 美元的資金新增，僅支援進階方式的資金增加。',
+  'account.pay_deposit_warning_tips':
+    '由於 DeGate 的補貼已用完，使用者可能需要承擔新增資金的成本。',
+  'account.deposit_pending_tips':
+    '如果等待時間超過 5 分鐘，請在您的錢包中加快交易速度。',
+  'account.deposit_pending_tips_ledger':
+    '如果等待時間超過 5 分鐘，請加快交易速度。',
+  'account.deposit_contract_tips_over_AMOUNT':
+    '對於超過 AMOUNT 美元的資金新增，僅支援進階方式的資金增加。',
   'account.deposit_contract_tips_only_all': '僅支援進階方式的資金新增',
   'account.suggest_100': '建議不小於 100 美元',
   'account.suggest_100_tips': '在訂單簿上列出的最低訂單價值為 100 美元。',
@@ -494,10 +505,12 @@ const zhTW = {
   'account.register_token_check': '檢查上架進度',
   'account.register_token_code_err_added': '此代幣正在上架',
   'account.register_token_next_step': '下一步',
-  'account.register_token_tips1': '無需權限即可進行區塊鏈代幣上架。請立即上架您的代幣。',
+  'account.register_token_tips1':
+    '無需權限即可進行區塊鏈代幣上架。請立即上架您的代幣。',
   'account.register_token_btn': '上架代幣',
   'account.list_token': '上架代幣',
-  'account.withdraw_warning_XXX': '由於需求增加，目前發送資金需要大約 ~XXX 的時間。',
+  'account.withdraw_warning_XXX':
+    '由於需求增加，目前發送資金需要大約 ~XXX 的時間。',
   'account.withdraw_status_pending': '處理中',
   'account.tansferred_1_ETH': '已轉移 1 ETH',
   'account.transfer_status_sent': '已發送',
@@ -547,8 +560,10 @@ const zhTW = {
   'account.total_rewards': '總獎勵',
   'account.rewards_24h': '24小時獎勵',
   'account.rewards': '獎勵',
-  'menu.register_err': '您的地址沒有任何鏈上交易記錄。請完成任意一筆鏈上交易後重試。例如轉帳代幣到該地址。',
-  'menu.reset_post_success_withOrders': '已啟動資產金鑰重設。您所有的未完成訂單和網格策略已被取消。',
+  'menu.register_err':
+    '您的地址沒有任何鏈上交易記錄。請完成任意一筆鏈上交易後重試。例如轉帳代幣到該地址。',
+  'menu.reset_post_success_withOrders':
+    '已啟動資產金鑰重設。您所有的未完成訂單和網格策略已被取消。',
   'menu.reset_post_success': '已啟動資產金鑰重設。',
   'menu.reset_processing_title': '正在進行資產金鑰重設',
   'menu.reset_processing_desc': '請等待完成',
@@ -578,7 +593,8 @@ const zhTW = {
     '僅限掛單模式確保僅掛單訂單進入訂單簿。如果訂單的任何部分可以作為吃單訂單成交，那麼整個訂單將被退回。掛單模式的訂單不會產生任何Gas Fee或交易費用。',
   'trade.post_only_fail_title': '無法建立訂單',
   'trade.post_only_fail_desc': '請調整價格或停用"僅限掛單模式"。',
-  'trade.max_gas_fee_tips': '最大Gas Fee涵蓋了交易結算的鏈上成本，由吃單方支付並且掛單方免費。超出的費用將被退還。',
+  'trade.max_gas_fee_tips':
+    '最大Gas Fee涵蓋了交易結算的鏈上成本，由吃單方支付並且掛單方免費。超出的費用將被退還。',
   'trade.auto': '自動',
   'trade.custom': '自訂',
   'trade.enough_for_XX_trades': '足夠進行 XX 筆交易',
@@ -595,7 +611,8 @@ const zhTW = {
   'trade.err_amount_total': '請輸入數量或總數',
   'trade.err_amount': '請輸入數量',
   'trade.err_insufficientFee_title': 'Gas Fee不足',
-  'trade.err_insufficientFee_desc': '請檢查您的最大Gas Fee設置和您的 DeGate 餘額。',
+  'trade.err_insufficientFee_desc':
+    '請檢查您的最大Gas Fee設置和您的 DeGate 餘額。',
   'trade.cancel_order_success': '訂單已取消',
   'trade.pair_favorite': '收藏',
   'trade.pair_search': '搜尋代幣，合約地址',
@@ -603,7 +620,8 @@ const zhTW = {
   'trade.pair_change': '變動',
   'trade.url_parse_err_title': '該交易對不存在。',
   'trade.risk_tips': '風險警告',
-  'trade.base_is_not_default_token_tips': '在交易之前，請通過官方來源驗證代幣合約地址，以避免詐騙代幣。',
+  'trade.base_is_not_default_token_tips':
+    '在交易之前，請通過官方來源驗證代幣合約地址，以避免詐騙代幣。',
   'trade.chain_cancel': '在鏈上取消訂單',
   'trade.chain_cancel_no_need_tips': '此訂單無需在鏈上取消。',
   'trade.chain_cancel_success': '已發送要求',
@@ -616,13 +634,17 @@ const zhTW = {
   'trade.price_warning': '您輸入的價格與市場價格不符，請在下單前確認。',
   'trade.order_value_tips':
     '最小訂單價值為 <b>QUOTE_A</b> 或 <b>BASE_A</b>，相當於 MINUSD 美元。使用市價訂單可繞過此限制。',
-  'trade.order_value_tips_quote': '最小訂單價值為 <b>QUOTE_A</b>，相當於 MINUSD 美元。使用市價訂單可繞過此限制。',
-  'trade.order_value_tips_stable_quote': '最小訂單價值為 <b>QUOTE_A</b>。使用市價訂單可繞過此限制。',
+  'trade.order_value_tips_quote':
+    '最小訂單價值為 <b>QUOTE_A</b>，相當於 MINUSD 美元。使用市價訂單可繞過此限制。',
+  'trade.order_value_tips_stable_quote':
+    '最小訂單價值為 <b>QUOTE_A</b>。使用市價訂單可繞過此限制。',
   'trade.system_limit': '已超過系統限額',
-  'trade.stop_limit_untriggered_tips': '訂單尚未送出到訂單簿，因為未達到停止價格。',
+  'trade.stop_limit_untriggered_tips':
+    '訂單尚未送出到訂單簿，因為未達到停止價格。',
   'trade.stop_limit_triggered_tips_TIME': '訂單已在 TIME 送出到訂單簿',
   'trade.flow_of_funds': '資金流向',
-  'trade.flow_of_funds_tip2': '您已下單成功。訂單資金將進入您的 DeGate 餘額，而不是您的錢包餘額。',
+  'trade.flow_of_funds_tip2':
+    '您已下單成功。訂單資金將進入您的 DeGate 餘額，而不是您的錢包餘額。',
   'orders.show_current_pair_orders': '隱藏其他交易對',
   'orders.orderHistory': '訂單歷史紀錄',
   'orders.th_time': '時間',
@@ -676,7 +698,8 @@ const zhTW = {
     '網格策略盈利能力的重要參數。 每格利潤 =（較高價格 - 較低價格）/ 較低價格。 較高價格和較低價格指的是網格策略中兩個相鄰網格線的價格。',
   'gridTrade.min_grid_volume_XXX_ETH': '每格網格的金額：最小為 XXX ETH',
   'gridTrade.min_grid_volume_err': '請增加投資額度或減少網格數',
-  'gridTrade.grid_no_depth_tips_BASE_QUOTE': '由於訂單簿中訂單不足，因此無法為此交易對建立網格策略。',
+  'gridTrade.grid_no_depth_tips_BASE_QUOTE':
+    '由於訂單簿中訂單不足，因此無法為此交易對建立網格策略。',
   'gridTrade.grid_to_spot_trade': '前往現貨交易',
   'gridTrade.grid_level_over_err': '請減少網格數量',
   'gridTrade.grid_prices_err': '請擴大價格範圍',
@@ -695,7 +718,8 @@ const zhTW = {
   'gridTrade.tv_sell': '出售',
   'gridTrade.tv_waiting': '等待中',
   'gridTrade.chain_cancel_no_need_tips': '此網格策略無需上鏈取消。',
-  'gridTrade.grid_over_max_number_err': '已達到執行中網格策略的最大數量，無法建立新網格策略。',
+  'gridTrade.grid_over_max_number_err':
+    '已達到執行中網格策略的最大數量，無法建立新網格策略。',
   'gridTrade.preview_orders_in_graph': '顯示訂單',
   'gridTrade.greate_news': '好消息：',
   'gridTrade.min_amount_required_XXX': '最低需要 XXX',
@@ -704,7 +728,8 @@ const zhTW = {
   'gridTrade.min_investment': '最低投資',
   'gridTrade.grid_need_XXX': '網格需 $XXX',
   'gridTrade.mining_need_XXX': '挖礦需 $XXX',
-  'gridTrade.recommended_params_cannot_be_applied': '由於投資不足，無法應用推薦參數。您可以在手動模式下調整',
+  'gridTrade.recommended_params_cannot_be_applied':
+    '由於投資不足，無法應用推薦參數。您可以在手動模式下調整',
   'gridTrade.copy_params_to_manual': '複製參數到手動模式',
   'gridOrders.grid_recents': '我的最新交易',
   'gridOrders.th_created_time': '建立時間',
@@ -738,9 +763,12 @@ const zhTW = {
   'gridOrders.history_orders_filled_total': '總計',
   'gridOrders.history_orders_profit_tips':
     '利潤來自於低買高賣的一輪交易週期後的價格差異。 例如，在以4000 USDC的價格成交了購買1 ETH的網格訂單後，如果網格區間為50 USDC，則系統將自動以4050 USDC的價格下達一個新訂單，以出售1 ETH。 當該訂單被成交時，將獲得50 USDC的利潤。',
-  'gridOrders.history_orders_buy_flip_order_tips_PRICE': '以PRICE價格完成買單後，利潤將會顯示。',
-  'gridOrders.history_orders_sell_flip_order_tips_PRICE': '以PRICE價格完成賣單後，利潤將會顯示。',
-  'gridOrders.m_history_orders_flip_order_tips_PRICE': '當以PRICE價格的訂單被成交時，訂單將出現在此。',
+  'gridOrders.history_orders_buy_flip_order_tips_PRICE':
+    '以PRICE價格完成買單後，利潤將會顯示。',
+  'gridOrders.history_orders_sell_flip_order_tips_PRICE':
+    '以PRICE價格完成賣單後，利潤將會顯示。',
+  'gridOrders.m_history_orders_flip_order_tips_PRICE':
+    '當以PRICE價格的訂單被成交時，訂單將出現在此。',
   'gridOrders.grid_cancel_title': '關閉網格策略',
   'gridOrders.grid_cancel_content': '此網格策略中的所有訂單將立即取消。',
   'gridOrders.grid_cancel_content2':
@@ -749,12 +777,14 @@ const zhTW = {
   'gridOrders.copy_grid_btn': '複製到面板',
   'gridOrders.copy_grid_success': '網格策略已複製',
   'gridOrders.grid_init_funds_XXX': '初始設定金額：$XXX',
-  'gridOrders.grid_init_funds_tips': '年化利率基於網格策略建立時的初始設定金額計算。',
+  'gridOrders.grid_init_funds_tips':
+    '年化利率基於網格策略建立時的初始設定金額計算。',
   'gridOrders.tab_m_trade': '交易',
   grid_apy: '網格年化利率',
   grid_apy_tips: '僅限網格交易的年化收益率，不包括浮動利潤。',
   'gridOrders.tab_mining_profit': '挖礦年化利率',
-  'gridOrders.tab_mining_profit_tips': '基於網格策略建立時設定的初始金額及其持續時間的年化利率。',
+  'gridOrders.tab_mining_profit_tips':
+    '基於網格策略建立時設定的初始金額及其持續時間的年化利率。',
   'gridOrders.mining_rewards': '獎勵：',
   'gridOrders.open_orders_empty_tips': '請等待資料載入完成',
   'gridOrders.market_value': '市值：',
@@ -810,7 +840,8 @@ const zhTW = {
   'mining.mining_24h_profit': '24小時挖礦獎勵',
   'mining.profit_unable_display': 'N/A',
   'mining.mining_funds': '挖礦資金',
-  'mining.mining_funds_tips': '此交易對的所有已符合挖礦訂單價值標準的網格策略的訂單總價值。',
+  'mining.mining_funds_tips':
+    '此交易對的所有已符合挖礦訂單價值標準的網格策略的訂單總價值。',
   'mining.tab_mining_profit_details': '獎勵詳情',
   'mining.tab_mining_orders': '挖礦訂單',
   'mining.th_rewards': '獎勵',
@@ -836,15 +867,23 @@ const zhTW = {
   'mining.mining_plan': '挖礦計劃',
   'mining.phase_unpublished': '待公佈',
   'mining.all_pools': '所有池子',
-  'notification.limit_desc_SELL_BASE_QUOTE_AMOUNT_PRICE': '以 PRICE QUOTE 賣出 AMOUNT BASE',
-  'notification.limit_desc_BUY_BASE_QUOTE_AMOUNT_PRICE': '以 PRICE QUOTE 買進 AMOUNT BASE',
-  'notification.stop_limit_desc_SELL_BASE_AMOUNT': '以 PRICE QUOTE 賣出 AMOUNT BASE',
-  'notification.stop_limit_desc_BUY_BASE_AMOUNT': '以 PRICE QUOTE 買進 AMOUNT BASE',
+  'notification.limit_desc_SELL_BASE_QUOTE_AMOUNT_PRICE':
+    '以 PRICE QUOTE 賣出 AMOUNT BASE',
+  'notification.limit_desc_BUY_BASE_QUOTE_AMOUNT_PRICE':
+    '以 PRICE QUOTE 買進 AMOUNT BASE',
+  'notification.stop_limit_desc_SELL_BASE_AMOUNT':
+    '以 PRICE QUOTE 賣出 AMOUNT BASE',
+  'notification.stop_limit_desc_BUY_BASE_AMOUNT':
+    '以 PRICE QUOTE 買進 AMOUNT BASE',
   'notification.cancel_grid_desc_PAIR_PRICES': 'PAIR：PRICES',
-  'notification.cancel_market_desc_SELL_BASE_QUOTE_AMOUNT': '以 QUOTE 買入 AMOUNT BASE',
-  'notification.cancel_market_desc_SELL_BASE_QUOTE_TOTAL': '以 TOTAL QUOTE 賣出 BASE',
-  'notification.cancel_market_desc_BUY_BASE_QUOTE_AMOUNT': '以 QUOTE 買入 AMOUNT BASE',
-  'notification.cancel_market_desc_BUY_BASE_QUOTE_TOTAL': '以 TOTAL QUOTE 賣出 BASE',
+  'notification.cancel_market_desc_SELL_BASE_QUOTE_AMOUNT':
+    '以 QUOTE 買入 AMOUNT BASE',
+  'notification.cancel_market_desc_SELL_BASE_QUOTE_TOTAL':
+    '以 TOTAL QUOTE 賣出 BASE',
+  'notification.cancel_market_desc_BUY_BASE_QUOTE_AMOUNT':
+    '以 QUOTE 買入 AMOUNT BASE',
+  'notification.cancel_market_desc_BUY_BASE_QUOTE_TOTAL':
+    '以 TOTAL QUOTE 賣出 BASE',
   'notification.cancel_limit': '限價訂單已取消',
   'notification.cancel_stop_limit': '停損限價訂單已取消',
   'notification.cancel_market': '市價訂單已取消',
@@ -852,7 +891,8 @@ const zhTW = {
   'notification.cancel_limit_expired': '限價訂單已過期',
   'notification.cancel_stop_limit_expired': '停損限價單已過期',
   'notification.cancel_grid_expired': '網格策略已過期',
-  'notification.cancel_limit_order_for_gas_desc': '您的訂單已經用完Gas Fee。 部分訂單成交，其餘訂單已被取消。',
+  'notification.cancel_limit_order_for_gas_desc':
+    '您的訂單已經用完Gas Fee。 部分訂單成交，其餘訂單已被取消。',
   'notification.cancel_limit_order_for_gas_filled_amount': '已成交',
   'notification.cancel_limit_order_for_gas_amount': '數量',
   'notification.view_history_orders': '查看訂單歷史',
@@ -870,8 +910,10 @@ const zhTW = {
   'notification.trade_market_filled': '市價訂單已成交',
   'notification.trade_stop_limit_partially': '停損限價訂單部分成交',
   'notification.trade_stop_limit_filled': '停損限價訂單已成交',
-  'notification.mobile_trade_filled_AMOUNT_TOKEN': '訂單已成交。 收到 AMOUNT TOKEN。',
-  'notification.mobile_trade_partially_AMOUNT_TOKEN': '訂單部分成交。 收到 AMOUNT TOKEN。',
+  'notification.mobile_trade_filled_AMOUNT_TOKEN':
+    '訂單已成交。 收到 AMOUNT TOKEN。',
+  'notification.mobile_trade_partially_AMOUNT_TOKEN':
+    '訂單部分成交。 收到 AMOUNT TOKEN。',
   'info.overview': '總覽',
   'info.accounts': '總使用者數',
   'info.pairs': '交易對',
@@ -919,7 +961,8 @@ const zhTW = {
   'm.balance_err': '餘額不足。 可用餘額：',
   'm.preview_grid': '預覽訂單',
   last_price: '最新價格',
-  'm.grid_desc': '網格交易是一種交易策略，它在定義的價格範圍內自動進行買入和賣出。',
+  'm.grid_desc':
+    '網格交易是一種交易策略，它在定義的價格範圍內自動進行買入和賣出。',
   'm.view_tutorial': '查看教學',
   'm.grid_profit_tips_sell': '當此賣單完全成交時將進行計算。',
   'm.grid_profit_tips_buy': '當此買單完全成交時將進行計算。',
@@ -938,7 +981,8 @@ const zhTW = {
   'activity.type_reset_account': '重設資產金鑰',
   on_chain_order_cancellation: '鏈上訂單取消',
   'activity.count_N': '計數：N',
-  'activity.order_desc_SELL_AMOUNT_BASE_PRICE_QUOTE': '以 PRICE QUOTE 價格賣出 AMOUNT BASE',
+  'activity.order_desc_SELL_AMOUNT_BASE_PRICE_QUOTE':
+    '以 PRICE QUOTE 價格賣出 AMOUNT BASE',
   'activity.order_market_desc_SELL_AMOUNT_BASE': '賣出 AMOUNT BASE',
   'activity.reset_status_restting': '重設中',
   'activity.to_trade': '交易',
@@ -956,11 +1000,13 @@ const zhTW = {
   'dca.create_dca_plan': '建立定投計劃',
   'dca.max_gas_fee_per_order': '每筆最大Gas Fee',
   'dca.maximum_plan_order_limit_reached': '已達到計劃訂單的最大數量。',
-  'dca.end_time_should_be_set_after_the_current_time': '結束時間應設定在目前時間之後',
+  'dca.end_time_should_be_set_after_the_current_time':
+    '結束時間應設定在目前時間之後',
   'dca.please_enter_amount_per_order': '請輸入每筆金額',
   'dca.please_enter_maximum_price': '請輸入最高價格',
   'dca.please_enter_minimum_price': '請輸入最低價格',
-  'dca.order_placement_failed_open_order_limit_exceeded': '下單失敗：超出開放訂單限制。',
+  'dca.order_placement_failed_open_order_limit_exceeded':
+    '下單失敗：超出開放訂單限制。',
   'dca.total': '總計',
   'dca.filled': '已成交',
   'dca.received': '已接收',
@@ -979,11 +1025,13 @@ const zhTW = {
   'dca.order_cancled_by_system_error': '因系統錯誤，下單失敗。',
   'dca.chain_cancel_no_need_tips': '此定投計畫不需要鏈上取消。',
   'dca.end_dca_plan': '結束定投計劃',
-  'dca.all_orders_in_this_dca_plan_will_be_canceled_immediately': '此定投計畫中的所有訂單將立即取消。',
+  'dca.all_orders_in_this_dca_plan_will_be_canceled_immediately':
+    '此定投計畫中的所有訂單將立即取消。',
   'dca.no_active_dca_plan': '沒有有效的的定投計劃',
   'dca.time_scheduled': '計劃時間',
   'campaign.event_period': '活動週期：',
-  'campaign.grid2401_time': '2024年1月22日，20:00:00 - 2024年1月29日，20:00:00 (UTC+8)',
+  'campaign.grid2401_time':
+    '2024年1月22日，20:00:00 - 2024年1月29日，20:00:00 (UTC+8)',
   'campaign.event_has_ended': '活動已結束。',
   'campaign.current_apy': '目前年化利率（APY）',
   'campaign.grid_strategy_income': '網格策略收益 + 獎金池份額',
@@ -992,7 +1040,8 @@ const zhTW = {
   'campaign.my_profit': '我的利潤',
   'campaign.grid_strategy_profit': '網格策略利潤',
   'campaign.share_of_prize_pool': '獎金池份額',
-  'campaign.grid_strategy_profit_has_been_added_to_your_available_balance': '網格策略利潤已新增到您的可用餘額中。',
+  'campaign.grid_strategy_profit_has_been_added_to_your_available_balance':
+    '網格策略利潤已新增到您的可用餘額中。',
   'campaign.shared_income_from_usdc_prize_pool': '來自USDC獎池的共享收入',
   'campaign.is_black_tips': '您不符合獎金池分享資格。',
   'campaign.calculating': '計算中',
@@ -1007,14 +1056,17 @@ const zhTW = {
   'campaign.grid2401_step2_desc1_pre': '價格範圍：待公佈',
   'campaign.grid2401_step2_desc2_pre': '網格數量：待公佈',
   'campaign.copy_strategy': '複製策略',
-  'campaign.grid2401_step3': '活動結束後，您可以在此活動頁面上領取您的收益。 請在活動結束後的30天內進行領取。',
+  'campaign.grid2401_step3':
+    '活動結束後，您可以在此活動頁面上領取您的收益。 請在活動結束後的30天內進行領取。',
   'campaign.what_is_grid': '什麼是網格策略',
   'campaign.notes': '加入前請注意',
   'campaign.notes_1_title': '資格：',
-  'campaign.notes_1_desc': '只有當價格範圍和網格數量與建立時完全相同才符合網格策略的資格。',
+  'campaign.notes_1_desc':
+    '只有當價格範圍和網格數量與建立時完全相同才符合網格策略的資格。',
   'campaign.notes_2_title': '限制：',
   'campaign.notes_3_title': '領取：',
-  'campaign.notes_3_desc': '獎勵領取將在活動結束時可用，並在活動結束後的30天內有效。',
+  'campaign.notes_3_desc':
+    '獎勵領取將在活動結束時可用，並在活動結束後的30天內有效。',
   'campaign.faq': '常見問題解答',
   'campaign.grid2401_faq_1': '1. 獎勵如何計算？',
   'campaign.grid2401_faq_2': '2. 如何取得此活動的支援？',
@@ -1028,8 +1080,10 @@ const zhTW = {
   'campaign.grid2401_faq_others': '其他活動細節',
   'campaign.grid2401_faq_others_1':
     '1. 每個使用者只能使用一個錢包。如果偵測到惡意的獎勵取得行為，DeGate將保留取消參與者獎勵的權利。',
-  'campaign.grid2401_faq_others_2': '2. 在活動期間，超出範圍的網格也將計入權重計算。',
-  'campaign.grid2401_faq_others_3': '3. 在極端情況下，例如市場波動，DeGate保留提前結束活動的權利。',
+  'campaign.grid2401_faq_others_2':
+    '2. 在活動期間，超出範圍的網格也將計入權重計算。',
+  'campaign.grid2401_faq_others_3':
+    '3. 在極端情況下，例如市場波動，DeGate保留提前結束活動的權利。',
   'campaign.grid2401_faq_others_4': '4. 活動結束後未領取的獎勵將取消。',
   'campaign.invest_max_5000': '最高投資額為 5000 美元',
   'campaign.invest_mininum': '最低投資額',
@@ -1087,15 +1141,19 @@ const zhTW = {
   'countdown.trading_will_start_in': '交易開始倒數計時',
   'countdown.trading_will_start_at_YYYY': '交易將在YYYY後開放',
   'countdown.cannot_earlier_than_current_time': '不能早於現在時間',
-  'dca.price_limit_buy_tips': '啟用後，您的買單僅在等於或低於最高價格時執行。此功能與零費用功能相容。',
-  'dca.price_limit_sell_tips': '啟用後，您的賣單僅在等於或高於最低價格時執行。此功能與零費用功能相容。',
+  'dca.price_limit_buy_tips':
+    '啟用後，您的買單僅在等於或低於最高價格時執行。此功能與零費用功能相容。',
+  'dca.price_limit_sell_tips':
+    '啟用後，您的賣單僅在等於或高於最低價格時執行。此功能與零費用功能相容。',
   'dca.zero_fee': '零費用',
   'dca.zero_fee_buy_tips':
     '啟用「零費用」後，定投訂單將僅限掛單。每個買入價格將設在下單後的訂單簿中最高的出價。請注意，您的訂單可能不會立即或根本不會成交。',
   'dca.zero_fee_sell_tips':
     '啟用「零費用」後，定投訂單將僅限掛單。每個賣出價格將設在下單後的訂單簿中最低的要價。請注意，您的訂單可能不會立即或根本不會成交。',
-  'dca.order_canceled_post_only_buy_failed': '因訂單簿缺乏買單，無法確定您訂單的買價而下單失敗。',
-  'dca.order_canceled_post_only_sell_failed': '因訂單簿缺乏賣單，無法確定您訂單的賣價而下單失敗。',
+  'dca.order_canceled_post_only_buy_failed':
+    '因訂單簿缺乏買單，無法確定您訂單的買價而下單失敗。',
+  'dca.order_canceled_post_only_sell_failed':
+    '因訂單簿缺乏賣單，無法確定您訂單的賣價而下單失敗。',
   start_time_cannot_before_current_time: '開始時間不能早於目前時間',
   start_time_must_before_end_time: '開始時間必須早於結束時間',
   list_token: '上幣',
@@ -1125,11 +1183,13 @@ const zhTW = {
   large_price_spread_tips:
     '訂單簿顯示最低賣出和最高買入價格之間存在較大差距，存在損失風險。建議使用雙資產模式進行投資。',
   continue_anyway: '仍然繼續',
-  insufficient_order_book_liquidity_decrease_investment: '訂單簿流動性不足。減少投資額。',
+  insufficient_order_book_liquidity_decrease_investment:
+    '訂單簿流動性不足。減少投資額。',
   initial_buy: '初始購買',
   closing_sell: '關倉賣出',
   No: '否',
-  DCA_TRIGGER_FAIL_TIPS_PRICE_XXX: '如果在執行時<b>$XXX的價格低於$PRICE</b>，定投訂單將失敗。',
+  DCA_TRIGGER_FAIL_TIPS_PRICE_XXX:
+    '如果在執行時<b>$XXX的價格低於$PRICE</b>，定投訂單將失敗。',
   zero_fee: '零費用',
   minimum_order_value_is_VALUE: '最小訂單價值為<b>$VALUE</b>。',
   Note: '提示',
@@ -1146,14 +1206,17 @@ const zhTW = {
   maximum_N_due_to_price_ticks: '由於價格精度限制，最大值為N',
   Saved: '已保存',
   minimum_order_value_$100_$QUOTE: '最小訂單價值為<b>$100 $QUOTE</b>',
-  minimum_order_value_$AMOUNT_$QUOTE_$100: '最小訂單價值為<b>$AMOUNT $QUOTE</b>(約 $100)',
+  minimum_order_value_$AMOUNT_$QUOTE_$100:
+    '最小訂單價值為<b>$AMOUNT $QUOTE</b>(約 $100)',
   no_restriction_with_market_order: '<b>市價單</b>無該限制',
   go_to_market_order: '前往市價單',
   Mining_Eligibility: '挖礦資格',
   How_to_earn_mining_rewards: '如何賺取挖礦獎勵',
   Order_Value: '訂單價值',
-  'mining.mining_tips_BV_BASE_QV_QUOTE': '在策略建立時，網格訂單必須至少為<b>BV BASE</b>或<b>QV QUOTE</b>',
-  'mining.mining_tips_QV_QUOTE': '在策略建立時，網格訂單必須至少為<b>QV QUOTE</b>',
+  'mining.mining_tips_BV_BASE_QV_QUOTE':
+    '在策略建立時，網格訂單必須至少為<b>BV BASE</b>或<b>QV QUOTE</b>',
+  'mining.mining_tips_QV_QUOTE':
+    '在策略建立時，網格訂單必須至少為<b>QV QUOTE</b>',
   Mining_Price_Range: '挖礦價格範圍',
   'mining.status_over_price_tips':
     '網格訂單價格必須在<b>挖礦價格範圍之內</b>，即：訂單簿最高買入價格*0.99 ～ 訂單簿最低賣出價格*1.01。',
@@ -1207,7 +1270,8 @@ const zhTW = {
   scan_421614: 'Arbiscan',
   scan_10: 'Opscan',
   scan_11155420: 'Opscan',
-  scan_tips: '包含此操作的rollup交易尚未送到Ethereum主網上。在此之前，DGSCAN 將<b>不會</b>顯示此操作。',
+  scan_tips:
+    '包含此操作的rollup交易尚未送到Ethereum主網上。在此之前，DGSCAN 將<b>不會</b>顯示此操作。',
   Best_Liquidity: '流動性最佳',
   order_partially_filled: '訂單部分成交',
   order_partially_filled_for_liquidity:
@@ -1238,5 +1302,33 @@ const zhTW = {
   leave_survey_other_reason: '其他（請在下面的輸入框中告訴我們）',
   leave_survey_thanks_for_feedback: '感謝您的回饋',
   Submitted: '已送出',
-}
-export default zhTW
+
+  doc_title: 'DeGate：去中心化訂單簿交易所 | 免費網格和定投加密交易機器人',
+  doc_desc:
+    'DeGate 是一家頂尖的去中心化訂單簿交易所，提供數百種加密貨幣的极低費率交易，並提供免費的限價單交易、網格交易和定投機器人。',
+  doc_title_spot: ' | 去中心化訂單簿交易所 | DeGate DEX',
+  doc_title_grid: ' | 去中心化網格交易機器人 | DeGate DEX',
+  doc_title_dca: ' | 去中心化定投交易機器人 | DeGate DEX',
+
+  Notification: '',
+  read_all: '',
+  important: '',
+  general: '',
+  view_more: '',
+  thats_all: '',
+  XXX_fund_addition_processing: '',
+  add_AMOUNT_XXX_to_DeGate: '',
+  XXX_fund_addition_successful: '',
+  XXX_send_successful: '',
+  send_AMOUNT_XXX_to_DeGate: '',
+  send_AMOUNT_XXX_to_Ethereum: '',
+  you_have_received_a_new_airdrop: '',
+  AMOUNT_XXX_can_be_claimed_after_YYYY_MM_DD: '',
+  MARKET_Chart: 'MARKET 圖表',
+  grid_free: '',
+  maker_free_tips: '',
+  Audit: '',
+  Tool: '',
+  About: '',
+};
+export default zhTW;
